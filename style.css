@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Source+Sans+Pro|Montserrat');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    font-color: #222;
+}
+
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+    font-size: 120%;
+    text-align: left; 
+    line-height: 200%;
+    margin-top: 20px;
+}
+
+section {
+    padding: 4em 0;
+    width: 100%;
+    /*height: 100vh;*/
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#home {
+   /* background-color: #d9d9d9; */
+     background-image: linear-gradient(rgba(255,255,255,.6), rgba(255,255,255,.6)), url("mountain.jpg");
+     height: 100vh;
+}
+
+#skills {
+}
+
+.container-fluid, .col-md-4{
+    padding: 0;
+}
+
+#portfolio {
+    padding-top: 3.5%;
+    padding-bottom: 0;
+}
+
+#portfolio .col-md-4 {
+    max-height: 300px;
+}
+
+nav ul {
+    padding-right: 20px;
+}
+
+#title {
+	font-size: 110px;
+}
+
+.secondary-title {
+	font-size: 60px;
+	text-align: left;
+}
+
+.full-header {
+    margin-top: 15%;
+   /* color: white;*/
+}
+
+i {
+    color: black;
+    margin: 15px;
+    font-size: 45px;
+}
+
+hr {
+    border-color: #222;
+}
+
+.fa-angle-down {
+    margin-top: 10%;
+    font-size: 40px;
+    color: black;
+    position: relative;
+    animation: bob 1.5s infinite linear;
+    overflow: hidden;
+}
+
+@keyframes bob {
+    0% {transform: translateY(0px);}
+    33% {transform: translateY(7px);}
+    66%{transform: translateY(-7px);}
+}
+
+#down {
+    position:absolute;
+    bottom: 20px; 
+}
+
+.fa-angle-down:hover, {
+    color: #575757;
+}
+
+.btn-round {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    padding: 0;
+    margin-top: 35px;
+    box-shadow: none;
+}
+
+.btn-clear:hover, .btn-clear:focus, .btn-clear:active {
+    box-shadow: none;
+}
+
+td:first-child {
+    width: 10%;
+    text-align: left;
+}
+td:last-child {
+    width: 90%;
+}
+
+tr td {
+    font-size: 100%;
+}
+
+.progress {
+   margin: 0.5%;
+}
+
+.progress-bar {
+  animation: progress 1.5s ease-in-out forwards;
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} 
+@keyframes show  {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+#skills .row {
+    margin-top: 30px;
+}
+
+#progress-table {
+    width: 70%;
+    margin-left: 18%;
+}
+
+#back-to-top {
+    position: fixed;
+    top: 510px;
+    left: 1200px;
+    z-index: 50;
+}
+
+
+footer {
+    font-size: 70%;
+    background-color: #d9d9d9;
+    padding: 0;
+}
+
+footer p {
+    text-align: center;
+    padding: 2em;
+    margin: 0;
+}
+
+#contact p {
+    margin-top: 0.5em;
+}
+
+#contact i {
+    padding-left: 2em; 
+    padding-right: 0.3em;
+}
+
+#contact-info {
+    margin-top: 2em;
+}
+
+
+#float-box {
+    width: 100%;
+}
+
+.cloud {
+    top: 200px;
+    opacity: 0.2;
+}
+
+#float {
+    overflow: hidden;
+    position: relative;
+    animation: floatAcross 45s infinite linear;
+}
+
+@keyframes floatAcross {
+    0% {margin-left: 1400px;}
+	100% {margin-left: -1600px;}
+}
+
+.white-text {
+    text-align: center;
+}
+
+nav a {
+    font-family: Open Sans, sans-serif;
+    font-size: 120%;
+}
+
+.fab, .fas {
+     color: #222;
+}
+
+
+.icons {
+    margin-top: 20px;
+}
+
+#about {
+    background: #d9d9d9;
+}
+
+.center {
+     text-align: center;
+}
+
+.right-title {
+    text-align: right;
+}
+
+.large-icons i {
+    font-size: 60px;
+}
+
+.row .icons {
+    padding: 0;
+}
