@@ -186,8 +186,9 @@ footer p {
     margin: 0;
 }
 
-#contact p {
+#contact a {
     margin-top: 0.5em;
+    text-align: left;
 }
 
 #contact i {
@@ -244,10 +245,6 @@ nav a {
 
 .center {
      text-align: center;
-}
-
-.left {
-    text-align: left;
 }
 
 .right-title {
