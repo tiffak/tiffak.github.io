@@ -187,14 +187,18 @@ footer p {
 }
 
 #contact li {
-    list-style-type: none;
+    list-style: none;
     margin-top: 0.5em;
     text-align: left;
 }
 
+#contact li a, #contact li span {
+    text-align: left;
+}
+
 #contact i {
-    padding-left: 2em;
-    padding-right: 0.3em;
+   /* padding-left: 2em;*/
+   /* padding-right: 0.3em;*/
 }
 
 #contact-info {
