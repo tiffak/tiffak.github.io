@@ -246,6 +246,10 @@ nav a {
      text-align: center;
 }
 
+.left {
+    text-align: left;
+}
+
 .right-title {
     text-align: right;
 }
