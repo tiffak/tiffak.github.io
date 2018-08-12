@@ -67,8 +67,12 @@ nav ul {
 }
 
 .full-header {
-    margin-top: 15%;
-   /* color: white;*/
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+min-height: 90vh;
 }
 
 i {
