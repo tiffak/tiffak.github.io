@@ -44,11 +44,6 @@ section {
     padding: 0;
 }
 
-#portfolio {
-    padding-top: 3.5%;
-    padding-bottom: 0;
-}
-
 #portfolio .col-md-4 {
     max-height: 300px;
 }
@@ -143,14 +138,14 @@ tr td {
   animation: progress 1.5s ease-in-out forwards;
 }
 
-@keyframes progress {
+/* @keyframes progress {
   from {
     width: 0;
   }
   to {
     width: 100%;
   }
-}
+} */
 @keyframes show  {
   from {
     opacity: 0;
@@ -165,10 +160,10 @@ tr td {
     margin-top: 30px;
 }
 
-#progress-table {
+/* .progress-table {
     width: 70%;
     margin-left: 18%;
-}
+} */
 
 #back-to-top {
     position: fixed;
@@ -264,6 +259,6 @@ nav a {
     font-size: 60px;
 }
 
-.row .icons {
-    padding: 0;
-}
+/* .row .icons {
+    padding: 10%;
+} */
